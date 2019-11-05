@@ -1,0 +1,122 @@
+body {
+    background-image: url(https://images7.alphacoders.com/968/968412.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-color: black;
+    font-family: 'Staatliches', cursive;
+    text-rendering: optimizeLegibility;
+}
+
+header {
+    font-size: 45px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    text-shadow: 4px 4px 6px black;
+}
+
+h1 {
+    margin-top: 210px;
+}
+
+header:hover {
+    transition: all 1s ease-in-out;
+    font-size: 50px;
+}
+
+#topnav {
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+section {
+    font-size: 13px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    text-shadow: 4px 4px 6px black;
+    margin-top: -83px;
+}
+
+#topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#topnav a:hover {
+    transition: all 0.4s ease-in-out;
+    background-color: grey;
+    font-size: 21px;
+}
+
+#topnav a.active {
+    background-color: grey;
+    color: black;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    margin: auto;
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: white;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.batmanvideo {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: double outset;
+    border-width: 8px;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 6px 6px 12px black;
+    margin-bottom: 50px;
+}
+
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Staatliches', cursive;
+    margin-bottom: 22px;
+}
+
+.button:hover {
+    font-size: 22px;
+    transition: all 1s ease-in-out;
+}
+
+#topnav .fa {
+    float: right;
+    font-size: 17px;
+}
