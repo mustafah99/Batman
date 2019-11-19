@@ -23,7 +23,7 @@ h1 {
 
 header:hover {
     transition: all 1s ease-in-out;
-    font-size: 50px;
+    transform: scale(1.01);
 }
 
 #topnav {
@@ -56,7 +56,7 @@ section {
 #topnav a:hover {
     transition: all 0.4s ease-in-out;
     background-color: grey;
-    font-size: 21px;
+    transform: scale(1.1);
 }
 
 #topnav a.active {
@@ -83,7 +83,7 @@ p.copyright {
     text-align: center;
 }
 
-.batmanvideo {
+.batman-video {
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -99,8 +99,10 @@ p.copyright {
 }
 
 .button {
-    background-color: red;
-    border: none;
+    background: linear-gradient(45deg, red, rgb(116, 2, 2), rgb(66, 1, 1));
+    border-style: inset;
+    border-color: black;
+    border-width: 5px;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -112,11 +114,39 @@ p.copyright {
 }
 
 .button:hover {
-    font-size: 22px;
-    transition: all 1s ease-in-out;
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
 }
 
 #topnav .fa {
     float: right;
     font-size: 17px;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+    display: none;
+}
+
+.snapdrop {
+    float: right;
+    overflow: hidden;
+    display: none;
+}
+
+.bruce p {
+    font-size: 15px;
+    text-align: left;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-weight: normal;
+    margin-top: 100px;
+    padding: 20px 12px;
+}
+
+.bruce .Bruce2 {
+    width: 500px;
+    height: auto;
+    float: right;
 }

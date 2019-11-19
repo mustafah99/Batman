@@ -1,13 +1,21 @@
-window.onscroll = function () { myFunction() };
+$(document).ready(() => {
+    $('.button').on('click', () => {
+        $('.batman-video').fadeToggle();
+    });
 
-var topnav = document.getElementById("topnav");
+    $('.fa-music').on('click', () => {
+        $('.dropdown').fadeToggle(500);
+    });
 
-var sticky = topnav.offsetTop;
+    $('#mute').on('click', () => {
+        $('.main-theme').detach();
+    })
 
-function myFunction() {
-    if (window.pageYOffset >= sticky) {
-        topnav.classList.add("sticky")
-    } else {
-        topnav.classList.remove("sticky");
-    }
-}
+    $('#play').on('click', () => {
+        $('.main-theme').append();
+    })
+
+    $('.fa-snapchat-ghost').on('click', () => {
+        $('.snapdrop').fadeToggle(500);
+    });
+});
