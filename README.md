@@ -1,3 +1,3 @@
 # Batman
 Webpage where you can search for different types of developer jobs through GitHub Jobs API. 
-Live at: https://mustafah99.github.io/Batman/
+Live at: https://mustafah99.github.io/Batman-Job-Seeker-Webpage---GitHub-Jobs-API/
